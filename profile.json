@@ -1,0 +1,351 @@
+{"name": "Benjamin Lahner","color": "black",
+ "children": [
+  {"name": "Human Intelligence", "color": "green", 
+    "children":[
+      {"name": "Neuroimaging", "size": 1000, "color": "green",
+        "children":[
+          {"name": "fMRI-only Data Analysis","color": "black",
+            "children": [
+              {"name": "*BOLD Moments Dataset (Nature Comm., 2024)", "size": 3812, "color": "red", "url": "https://www.nature.com/articles/s41467-024-50310-3",
+                "children":[
+                  {"name": "MIT Open Data Competition - Runner Up", "size": 3812, "color": "purple"}
+                ]
+              },
+              {"name": "*Brain Netflix (ECCV, 2024)", "size": 3812, "color": "red", "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03816.pdf"},
+              {"name": "The Algonauts Project: Natural Scenes (arxiv, 2023)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/2301.03198"},
+              {"name": "The Algonauts Project: Motion (arxiv, 2021)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/2104.13714"},
+              {"name": "Center-periphery bias in DNNs (Scientific Reports, 2020)", "size": 3812, "color": "red", "url": "https://www.nature.com/articles/s41598-020-61409-0"}
+            ]
+          },
+          {"name": "fMRI Analysis Packages", "size": 5842, "color": "black",
+            "children": [
+                {"name": "FreeSurfer", "size": 1983},
+                {"name": "fMRIPrep", "size": 1983},
+                {"name": "SPM", "size": 1983},
+                {"name": "Nilearn", "size": 1983},
+                {"name": "NiBabel", "size": 1983},
+                {"name": "Connectome Workbench", "size": 1983}
+              ]
+          },
+          {"name": "fMRI Data Collection","color": "black",
+            "children": [
+            {"name": "*BOLD Moments Dataset (Nature Comm., 2024)", "color": "red", "url": "https://www.nature.com/articles/s41467-024-50310-3",
+              "children": [
+              {"name": "Project Page", "size": 3812, "color": "black", "url": "https://github.com/blahner/BOLDMomentsDataset"},
+              {"name": "Data Repository", "size": 3812, "color": "black", "url": "https://openneuro.org/datasets/ds005165"},
+              {"name": "MIT Open Data Competition - Honorable Mention (2022)", "size": 3812, "color": "purple"}
+              ]
+            },
+            {"name": "Algonauts 2021","color": "red","url": "https://arxiv.org/abs/2104.13714",
+              "children": [
+                {"name": "Project Page", "size": 3812, "color": "black", "url": "http://algonauts.csail.mit.edu/2021/index.html"}
+              ]
+            }
+            ]
+          },
+          {"name": "MEG + fMRI Fusion", "size": 1000, "color": "black",
+            "children":[
+              {"name": "*Memorability (PLOS Biology, 2024)", "size": 3812, "color": "red", "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002564"},
+              {"name": "Cochlea to Categories (Cognitive Neuropsychology, 2022)", "size": 3812, "color": "red", "url": "https://www.tandfonline.com/doi/full/10.1080/02643294.2022.2085085"},
+              {"name": "Reliability of fMRI-MEG Fusion (Vision, 2019)", "size": 3812, "color": "red", "url": "https://www.mdpi.com/2411-5150/3/1/8"},
+              {"name": "The Algonauts Project: fMRI + MEG (arxiv, 2019)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/1905.05675"}
+            ]
+          }
+        ]
+    
+      },
+      {"name": "Clinical Applications", "size": 1000, "color": "green",
+        "children":[
+          {"name": "Regeneron Internship", "size": 4116, "color": "blue",
+            "children":[
+              {"name": "Wearable Gait Signature (eLife, 2024)", "size": 3812, "color": "red", "url": "https://elifesciences.org/articles/86132",
+                "children":[
+                  {"name": "Systems and methods for test device analysis", "size": 3812, "color": "orange"}
+                ]
+              }
+            ]
+          },
+          {"name": "*Eyedrop Assist Device (Human Factors in Healthcare, 2024)", "size": 3812, "color": "red", "url": "https://www.sciencedirect.com/science/article/pii/S2772501424000113?via%3Dihub",
+            "children":[
+              {"name": "Eye drop positioning device with haptic feedback", "size": 3812, "color": "orange", "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024238546&_cid=P20-M41VOA-20633-1"}
+            ]
+          }
+        ] 
+      },
+      {"name": "Time-series Analysis", "size": 1000, "color": "green",
+        "children":[
+          {"name": "Wearable Gait Signature (eLife, 2024)", "size": 3812, "color": "red", "url": "https://elifesciences.org/articles/86132",
+            "children":[
+              {"name": "Systems and methods for test device analysis", "size": 3812, "color": "orange"}
+            ]
+          },
+          {"name": "Theta-phase Memory (eLife, 2023)", "size": 3812, "color": "red", "url": "https://elifesciences.org/articles/82697",
+            "children": [
+              {"name": "Best Biomedical Engineering Senior Design Project", "size": 3812, "color": "purple"}
+            ]
+          },
+          {"name": "MEG + fMRI Fusion", "size": 1000, "color": "black",
+            "children":[
+              {"name": "*Memorability (PLOS Biology, 2024)", "size": 3812, "color": "red", "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002564"},
+              {"name": "Cochlea to Categories (Cognitive Neuropsychology, 2022)", "size": 3812, "color": "red", "url": "https://www.tandfonline.com/doi/full/10.1080/02643294.2022.2085085"},
+              {"name": "Reliability of fMRI-MEG Fusion (Vision, 2019)", "size": 3812, "color": "red", "url": "https://www.mdpi.com/2411-5150/3/1/8"},
+              {"name": "The Algonauts Project: fMRI + MEG (arxiv, 2019)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/1905.05675"}
+            ]
+          }
+
+        ]
+      },
+      {"name": "Human Factors Engineering", "size": 1000, "color": "green",
+        "children":[
+          {"name": "*Eyedrop Assist Device (Human Factors in Healthcare, 2024)", "size": 3812, "color": "red", "url": "https://www.sciencedirect.com/science/article/pii/S2772501424000113?via%3Dihub",
+            "children":[
+              {"name": "Eye drop positioning device with haptic feedback", "size": 3812, "color": "orange", "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024238546&_cid=P20-M41VOA-20633-1"}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {"name": "Artificial Intelligence", "color": "green", "size":1000,
+    "children":[
+      {"name": "Classical Machine Learning", "size": 1000, "color": "green",
+        "children":[
+          {"name": "Regeneron Internship", "size": 4116, "color": "blue",
+            "children":[
+              {"name": "Wearable Gait Signature (eLife, 2024)", "size": 3812, "color": "red", "url": "https://elifesciences.org/articles/86132",
+                "children":[
+                  {"name": "Systems and methods for test device analysis", "size": 3812, "color": "orange"}
+                ]
+              }
+            ]
+          },
+        {"name": "Cochlea to Categories (Cognitive Neuropsychology, 2022)", "size": 3812, "color": "red", "url": "https://www.tandfonline.com/doi/full/10.1080/02643294.2022.2085085"},
+        {"name": "Reliability of fMRI-MEG Fusion (Vision, 2019)", "size": 3812, "color": "red", "url": "https://www.mdpi.com/2411-5150/3/1/8"},
+        {"name": "The Algonauts Project: fMRI + MEG (arxiv, 2019)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/1905.05675"},
+        {"name": "*Memorability (PLOS Biology, 2024)", "size": 3812, "color": "red", "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002564"}
+        ] 
+      },
+      {"name": "Deep Learning","color": "green",
+        "children": [
+          {"name": "Neural Networks from Scratch Tutorial", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/the-fundamentals-of-neural-networks-a-comprehensive-tutorial-without-internet-or-gpus-c6e65f5cb882"},
+          {"name": "*BOLD Moments Dataset (Nature Comm., 2024)","color": "red","url": "https://www.nature.com/articles/s41467-024-50310-3",
+            "children": [
+            {"name": "Project Page", "size": 3812, "color": "black", "url": "https://github.com/blahner/BOLDMomentsDataset"},
+            {"name": "Data Repository", "size": 3812, "color": "black", "url": "https://openneuro.org/datasets/ds005165"},
+            {"name": "MIT Open Data Competition - Honorable Mention (2022)", "size": 3812, "color": "purple"}
+            ]
+          },
+          {"name": "*Memorability (PLOS Biology, 2024)", "size": 3812, "color": "red", "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002564"},
+          {"name": "Regeneron Internship", "size": 4116, "color": "blue",
+            "children":[
+              {"name": "Wearable Gait Signature (eLife, 2024)", "size": 3812, "color": "red", "url": "https://elifesciences.org/articles/86132",
+                "children":[
+                  {"name": "Systems and methods for test device analysis", "size": 3812, "color": "orange"}
+                ]
+              }
+            ]
+          },
+          {"name": "The Algonauts Project: Natural Scenes (arxiv, 2023)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/2301.03198"},
+          {"name": "The Algonauts Project: Motion (arxiv, 2021)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/2104.13714"},
+          {"name": "Center-periphery bias in DNNs (Scientific Reports, 2020)", "size": 3812, "color": "red", "url": "https://www.nature.com/articles/s41598-020-61409-0"},
+          {"name": "The Algonauts Project: fMRI + MEG (arxiv, 2019)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/1905.05675"}
+        ]
+      },
+      {"name": "Large Language Models (LLMs)", "color": "green",
+        "children": [
+          {"name": "Amazon Internship", "size": 4116, "color": "blue"},
+          {"name": "Microsoft Internship", "size": 4116, "color": "blue"},
+          {"name": "*BOLD Moments Dataset (Nature Comm., 2024)","color": "red","url": "https://www.nature.com/articles/s41467-024-50310-3",
+            "children": [
+            {"name": "Project Page", "size": 3812, "color": "black", "url": "https://github.com/blahner/BOLDMomentsDataset"},
+            {"name": "Data Repository", "size": 3812, "color": "black", "url": "https://openneuro.org/datasets/ds005165"},
+            {"name": "MIT Open Data Competition - Honorable Mention (2022)", "size": 3812, "color": "purple"}
+            ]
+          }
+        ]
+      },
+      {"name": "Large Vision Models (LVMs)", "color": "green",
+        "children": [
+          {"name": "Microsoft Internship", "size": 4116, "color": "blue"},
+          {"name": "*Brain Netflix (ECCV, 2024)", "size": 3812, "color": "red", "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03816.pdf"},
+          {"name": "*fMRI-to-video Reconstruction Techniques (ICML Workshop, 2024)","size": 3812, "color": "black", "url": "https://blahner.github.io/BrainNetflixICMLCVG"}
+        ]
+      }
+    ]
+  },
+
+  {"name": "Communication","color": "green",
+   "children": [
+    {"name": "Publications", "size": 8833,
+      "children":[
+        {"name": "*BOLD Moments Dataset (Nature Comm., 2024)", "size": 3812, "color": "red", "url": "https://www.nature.com/articles/s41467-024-50310-3",
+          "children":[
+            {"name": "MIT Open Data Competition - Runner Up", "size": 3812, "color": "purple"}
+          ]
+        },
+        {"name": "*Brain Netflix (ECCV, 2024)", "size": 3812, "color": "red", "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03816.pdf"},
+        {"name": "*Memorability (PLOS Biology, 2024)", "size": 3812, "color": "red", "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002564"},
+        {"name": "Wearable Gait Signature (eLife, 2024)", "size": 3812, "color": "red", "url": "https://elifesciences.org/articles/86132",
+          "children":[
+            {"name": "Systems and methods for test device analysis", "size": 3812, "color": "orange"}
+          ]
+        },
+        {"name": "*Eyedrop Assist Device (Human Factors in Healthcare, 2024)", "size": 3812, "color": "red", "url": "https://www.sciencedirect.com/science/article/pii/S2772501424000113?via%3Dihub",
+          "children":[
+            {"name": "Eye drop positioning device with haptic feedback", "size": 3812, "color": "orange", "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024238546&_cid=P20-M41VOA-20633-1"}
+          ]
+        },
+        {"name": "Theta-phase Memory (eLife, 2023)", "size": 3812, "color": "red", "url": "https://elifesciences.org/articles/82697",
+          "children": [
+            {"name": "Best Biomedical Engineering Senior Design Project", "size": 3812, "color": "purple"}
+          ]
+        },
+        {"name": "The Algonauts Project: Natural Scenes (arxiv, 2023)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/2301.03198"},
+        {"name": "Cochlea to Categories (Cognitive Neuropsychology, 2022)", "size": 3812, "color": "red", "url": "https://www.tandfonline.com/doi/full/10.1080/02643294.2022.2085085"},
+        {"name": "The Algonauts Project: Motion (arxiv, 2021)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/2104.13714"},
+        {"name": "Center-periphery bias in DNNs (Scientific Reports, 2020)", "size": 3812, "color": "red", "url": "https://www.nature.com/articles/s41598-020-61409-0"},
+        {"name": "Reliability of fMRI-MEG Fusion (Vision, 2019)", "size": 3812, "color": "red", "url": "https://www.mdpi.com/2411-5150/3/1/8"},
+        {"name": "The Algonauts Project: fMRI + MEG (arxiv, 2019)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/1905.05675"}
+      ]
+    },
+    {"name": "Workshops", "size": 5000,
+      "children": [
+        {"name": "*fMRI-to-video Reconstruction Techniques (ICML Workshop, 2024)","size": 3812, "color": "black", "url": "https://blahner.github.io/BrainNetflixICMLCVG/"},
+        {"name": "Emergence of Categorical Sound (NeurIPS 2019)","size": 3812, "color": "black", "url": "https://cochleatocategories.csail.mit.edu/"}
+      ]
+    },
+    {"name": "Talks", "size": 1732, 
+      "children": [
+        {"name": "DNNs and Nueroscience (Voxel51, 2023)"},
+        {"name": "The Algonauts Project (CCN, 2023)"},
+        {"name": "Eyedrop Assist Device (Human Factors and Ergonomics Society, 2024)"}
+      ]
+    },
+    {"name": "Teaching", "size": 1000, "color": "black",
+      "children":[
+        {"name": "Intro to Python", "size": 1000, "color": "black",
+          "children":[
+          {"name": "The Educational Justice Initiative", "size": 1000, "color": "black", "url": "https://www.teji.mit.edu/"}
+          ]
+        },
+        {"name": "Neural Networks from Scratch Tutorial", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/the-fundamentals-of-neural-networks-a-comprehensive-tutorial-without-internet-or-gpus-c6e65f5cb882"}
+      ]
+    },
+    {"name": "Blog", "size": 3623,
+      "children":[
+        {"name": "Neural Networks from Scratch Tutorial", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/the-fundamentals-of-neural-networks-a-comprehensive-tutorial-without-internet-or-gpus-c6e65f5cb882"},
+        {"name": "How to Make a Ticket Bot", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/how-to-build-your-own-ticket-bot-63c3d0706e92"},
+        {"name": "Boston Donut Shops", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/bostons-best-donut-shops-ranked-2024-55fa620c769d"},
+        {"name": "Infinite Monkey Theorem", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/curious-george-discovers-the-infinite-monkey-theorem-652d73667229"},
+        {"name": "N Heads in K Flips", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/what-is-the-probability-of-flipping-n-consecutive-heads-in-k-coin-flips-71fcae35c33a"},
+        {"name": "AGI Not Coming Soon", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/artificial-general-intelligence-isnt-coming-anytime-soon-here-s-why-d29e6d9b90e6"},
+        {"name": "Settling Disagreements", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/settling-disagreements-with-trigonometry-dont-take-sides-solve-them-c8d14bff39c1"},
+        {"name": "Legend of Cocaine Island", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/a-new-angle-on-the-legend-of-cocaine-island-7791f7049f36"},
+        {"name": "Bank Robbers", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/letting-bank-robbers-tour-the-bank-794f21a0fb5"},
+        {"name": "Sportsball", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/the-sportsball-bracket-generator-a-competitive-march-madness-bracket-generator-for-non-competitive-611d3ce5fd28"},
+        {"name": "March Madness Bracket", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/18-million-brackets-later-here-are-the-best-and-worst-ways-to-fill-out-your-march-madness-c41db4920a8c"},
+        {"name": "City Biking Dangerous", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/is-city-biking-really-that-dangerous-a-look-at-the-odds-2ef311cb800e"},
+        {"name": "Simpsons Predict Future", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/the-simpsons-un-believable-ability-to-predict-the-future-ea059d83e572"},
+        {"name": "Backpacking Gear", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/the-gear-you-need-and-dont-need-for-backpacking-fe93060452e"},
+        {"name": "Jury Duty", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/how-to-win-a-slip-and-fall-case-a-jurors-perspective-6fa23344330e"}
+      ]
+    }
+   ]
+  },
+  {"name": "Programming","color": "green",
+   "children": [
+    {"name": "Python", "size": 1082, "color": "green",
+      "children":[
+        {"name": "Neural Networks from Scratch Tutorial", "size": 3812, "color": "black", "url": "https://medium.com/@benlahner/the-fundamentals-of-neural-networks-a-comprehensive-tutorial-without-internet-or-gpus-c6e65f5cb882",
+          "children":[
+            {"name": "Codebase", "size":1000, "color": "black", "url": "https://github.com/blahner/nntutorial-nogpu"}
+          ]
+        },
+        {"name": "*Eyedrop Assist Device (Human Factors in Healthcare, 2024)", "size": 3812, "color": "red", "url": "https://www.sciencedirect.com/science/article/pii/S2772501424000113?via%3Dihub",
+          "children":[
+            {"name": "Codebase", "size": 3812, "color": "red", "url": "https://github.com/blahner/precise-eyedrop"}
+          ]
+        },
+        {"name": "*BOLD Moments Dataset (Nature Comm., 2024)", "size":1000, "color": "red", "url": "https://www.nature.com/articles/s41467-024-50310-3",
+          "children":[
+            {"name": "Dataset Repository", "size":1000, "color":"black", "url": "https://openneuro.org/datasets/ds005165"},
+            {"name": "Starter Code", "size":1000, "color":"black", "url": "https://github.com/blahner/BOLDMomentsDataset"}
+          ]
+        },
+        {"name": "Python Analysis Packages", "size": 1000, "color": "black",
+          "children":[
+            {"name": "PyTorch", "size":1000, "color": "black"},
+            {"name": "scikit-learn", "size":1000, "color": "black"},
+            {"name": "Pandas", "size":1000, "color": "black"},
+            {"name": "SciPy", "size":1000, "color": "black"},
+            {"name": "HuggingFace", "size":1000, "color": "black"}
+          ]
+        }
+      ]
+    },
+    {"name": "MatLab", "size": 1336, "color": "green",
+      "children":[
+        {"name": "EECS Mathworks Fellowship", "size": 1000, "color": "purple"},
+        {"name": "*Memorability (PLOS Biology, 2024)", "size":1000, "color": "red",
+          "children":[
+            {"name": "Data Repository", "size":1000, "color": "black", "url": "https://osf.io/nrtvx/"}
+          ]
+        },
+        {"name": "*Eyedrop Assist Device (Human Factors in Healthcare, 2024)", "size": 3812, "color": "red", "url": "https://www.sciencedirect.com/science/article/pii/S2772501424000113?via%3Dihub",
+          "children":[
+            {"name": "Codebase", "size": 3812, "color": "red", "url": "https://github.com/blahner/precise-eyedrop"}
+          ]
+        }
+      ]
+    },
+    {"name": "C++", "size": 319, "color": "green",
+      "children":[
+        {"name": "Theta-phase Memory (eLife, 2023)", "size": 3812, "color": "red", "url": "https://elifesciences.org/articles/82697",
+          "children": [
+            {"name": "Best Biomedical Engineering Senior Design Project", "size": 3812, "color": "purple"}
+          ]
+        }
+      ]
+    },
+    {"name": "html/css/javascript", "size": 10498, "color": "green",
+      "children":[
+        {"name": "Personal Website", "size": 1000, "color": "black", "url": "https://blahner.github.io/"},
+        {"name": "Sportsball Website", "size": 1000, "color": "black", "url": "https://sportsballbracket.com/"}
+      ]
+    },
+    {"name": "Large-scale Computing", "color": "green",
+      "children":[
+        {"name": "Azure (Microsoft Internship)", "size": 4116, "color": "blue"},
+        {"name": "SLURM (MIT CSAIL Research)", "size": 1000}
+      ]
+    }
+   ]
+  },
+  {"name": "Professional Leadership", "size": 1000, "color": "green", 
+    "children":[
+      {"name": "Peer Review", "size": 1000, "color": "black",
+        "children":[
+          {"name": "Advanced Science", "size": 1000, "color": "black"},
+          {"name": "Expert Systems with Applications", "size": 1000, "color": "black"},
+          {"name": "PLOS One", "size": 1000, "color": "black"},
+          {"name": "Brain and Cognition", "size": 1000, "color": "black"},
+          {"name": "Scientific Reports", "size": 1000, "color": "black"}
+        ]
+      },
+      {"name": "Open Competition Organizer","size": 1000, "color": "black",
+        "children":[
+          {"name": "The Algonauts Project: Natural Scenes (arxiv, 2023)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/2301.03198"},
+          {"name": "The Algonauts Project: Motion (arxiv, 2021)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/2104.13714"},
+          {"name": "The Algonauts Project: fMRI + MEG (arxiv, 2019)", "size": 3812, "color": "red", "url": "https://arxiv.org/abs/1905.05675"}
+        ]
+      },
+      {"name": "Graduate Student Mentor", "size": 1000, "color": "black",
+        "children":[
+          {"name": "Project SHORT", "size": 1000, "color": "black", "url": "https://www.project-short.com/"}
+        ]
+      }
+    ]
+
+  }
+ ]
+}

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TreeCV</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicn –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/CSAIL_Primary_Regular_RGB.png">
+</head>
+<body>
+    <div class="header-info">
+        <h1>Benjamin Lahner</h1>
+        <div class="headshot-container">
+            <img src="images/headshot.jpg" alt="Benjamin Lahner headshot" class="headshot"/>
+        </div>
+        <div class="education">
+            <p><strong>Education:</strong></p>
+            <p>PhD Candidate: Electrical Engineering and Computer Science, MIT, Expected May 2025</p>
+            <p>Thesis: Understanding Human Visual Intelligence Through Large-scale Brain Imaging and Computational Models.</p>
+            <p>Advisor: Aude Oliva, <em>MIT Computer Science and Artificial Intelligence Lab (CSAIL)</em></p>
+            <br>
+            <p>MS: Electrical Engineering and Computer Science, MIT, May 2022</p>
+            <p>BS: Biomedical Engineering, Boston University, May 2019</p>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/blahner">
+                <svg height="20" width="20" viewBox="0 0 16 16">
+                    <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+                GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/benlahner/">
+                <svg height="20" width="20" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                LinkedIn
+            </a>
+            <a href="https://scholar.google.com/citations?user=goKPqBcAAAAJ&hl=en&oi=ao">
+                <svg height="20" width="20" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/>
+                </svg>
+                Google Scholar
+            </a>
+        </div>
+        <p>Contact: blahner [at] mit [dot] edu</p>
+        <div class="summary">
+            <p><strong>Current Role:</strong> PhD Candidate in MIT CSAIL for Computational Neuroscience. Expected to graduate in May 2025.</p>
+        </div>
+        <div class="summary">
+            <p><strong>Research Summary:</strong></p>
+            <p> 
+            My research combines neuroscience and AI to understand how our visual system
+             recognizes actions, understands complex scenes, and remembers images.
+             I've successfully applied my research in industry settings, including
+              developing personalized conversational AI 
+             systems at Amazon, training large vision-language models at Microsoft, and predicting 
+             disease severity from patient data at Regeneron.
+             Starting summer 2025, I aim to join an industry research team where I can combine 
+             my expertise in human and artificial intelligence to develop next-generation AI systems.
+            </p>
+        </div>
+    </div>
+    <div id="tree-container">
+        <div class="tree-header">
+            <strong>TreeCV:</strong> Click on a filled node (●) to expand/collapse children nodes. If node is clickable (🔗), click on the text to visit the URL.
+        </div>
+        <div id="tree-visualization"></div>
+        <div class="tree-footer">
+            <div class="legend">
+                <h4>Legend:</h4>
+                <div class="legend-items">
+                    <div class="legend-item">
+                        <span>●</span>
+                        <span class="text-green">Skills</span>
+                    </div>
+                    <div class="legend-item">
+                        <span>●</span>
+                        <span class="text-blue">Work Experience</span>
+                    </div>
+                    <div class="legend-item">
+                        <span>●</span>
+                        <span class="text-red">Publications (*First Author)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span>●</span>
+                        <span class="text-orange">Patents</span>
+                    </div>
+                    <div class="legend-item">
+                        <span>●</span>
+                        <span class="text-purple">Awards</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sections-container">
+        <div class="section" onclick="toggleSection(event, 'experience')">
+            <div class="section-header text-blue">Work Experience</div>
+            <div id="experience" class="section-content">
+                <div class="work-item">
+                    <div class="work-header">
+                        <span class="company">Amazon</span>
+                        <span class="role">Design Technologist Intern</span>
+                        <span class="date">Winter 2024, Summer 2024</span>
+                    </div>
+                    <div class="work-details">
+                        <ul>
+                            <li>Built a product-focused conversational AI system by combining agentic teams of large language models
+                                (from OpenAI, Anthropic, and open source) with personalizable knowledge graphs and vector databases.</li>
+                            <li>Improved the previous system's multi-hop retrieval recall score by 15% and temporal reasoning accuracy by 10% on large-scale benchmark datasets.</li>
+                            <li>Prioritized a flexible, model-agnostic framework to evaluate and incoporate next-generation LLMs.</li>
+                        </ul>
+                    </div>
+                </div>
+             
+                <div class="work-item">
+                    <div class="work-header">
+                        <span class="company">Microsoft</span>
+                        <span class="role">Computer Vision Research Intern</span>
+                        <span class="date">Summer 2022</span>
+                    </div>
+                    <div class="work-details">
+                        <ul>
+                            <li>Trained large transformer models to unite vision and language tasks.</li>
+                            <li>Integrated in a future deployment to Microsoft's Azure AI platform.</li>
+                        </ul>
+                    </div>
+                </div>
+             
+                <div class="work-item">
+                    <div class="work-header">
+                        <span class="company">Regeneron Pharmaceuticals</span>
+                        <span class="role">Machine Learning PhD Intern</span>
+                        <span class="date">Summer 2021</span>
+                    </div>
+                    <div class="work-details">
+                        <ul>
+                            <li>Developed machine learning models to predict clinically relevant outcomes (e.g., pain) from wearable sensor data.</li>
+                            <li>Presented results to senior management, which heavily influenced critical investment decisions in the emerging field of wearable healthcare technologies.</li>
+                            <li>Work resulted in being a co-inventor on a patent, "Systems and methods for test device analysis".</li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+        </div>
+        
+        <div class="section" onclick="toggleSection(event, 'publications')">
+
+            <div class="section-header text-red">Publications</div>
+
+            <div id="publications" class="section-content">
+                <div class="year-header">2024</div>
+                
+                <div class="paper">
+                    <div class="paper-title">
+                        Modeling short visual events through the BOLD moments video fMRI dataset and metadata.
+                    </div>
+                    <div class="authors">
+                        <span class="my-name">Benjamin Lahner</span>, Kshitij Dwivedi, Polina Iamshchinina, Monika Graumann, Alex Lascelles, 
+                        Gemma Roig, Alessandro Thomas Gifford, Bowen Pan, SouYoung Jin, Ratan Murty, Kendrick Kay, Aude Oliva+, Radoslaw Cichy+.
+                    </div>
+                    <div class="venue">Nature Communications, 2024</div>
+                    <div class="links">
+                        <a href="https://www.nature.com/articles/s41467-024-50310-3" target="_blank">Paper</a> |
+                        <a href="https://github.com/blahner/BOLDMomentsDataset" target="_blank">Project page</a> |
+                        <a href="https://openneuro.org/datasets/ds005165" target="_blank">Dataset Repository</a>
+                    </div>
+                </div>
+             
+                <div class="paper">
+                    <div class="paper-title">
+                        Brain Netflix: Scaling Data to Reconstruct Videos from Brain Signals.
+                    </div>
+                    <div class="authors">
+                        Camilo Fosco*, <span class="my-name">Benjamin Lahner*</span>, Bowen Pan, Alex Andonian, Emilie Josephs, Alex Lascelles, and Aude Oliva.
+                    </div>
+                    <div class="venue">European Conference on Computer Vision (ECCV), 2024</div>
+                    <div class="links">
+                        <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03816.pdf" target="_blank">Paper</a> |
+                        <a href="https://blahner.github.io/BrainNetflixECCV/" target="_blank">Project page</a>
+                    </div>
+                </div>
+             
+                <div class="paper">
+                    <div class="paper-title">
+                        Visual perception of highly memorable images is mediated by a distributed network of ventral visual regions that enable a late memorability response.
+                    </div>
+                    <div class="authors">
+                        <span class="my-name">Benjamin Lahner*</span>, Yalda Mohsenzadeh*, Caitlin Mullin*, and Aude Oliva.
+                    </div>
+                    <div class="venue">PLOS Biology, 2024</div>
+                    <div class="links">
+                        <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002564" target="_blank">Paper</a> |
+                        <a href="https://memorabilityfusion.csail.mit.edu/" target="_blank">Project page</a> |
+                        <a href="https://osf.io/nrtvx/" target="_blank">Repository</a> |
+                        <a href="https://news.mit.edu/2024/mapping-brain-pathways-visual-memorability-0423" target="_blank">MIT news</a>
+                    </div>
+                </div>
+             
+                <div class="paper">
+                    <div class="paper-title">
+                        Digital wearable insole-based identification of knee arthropathies and gait signatures using machine learning.
+                    </div>
+                    <div class="authors">
+                        Matthew F. Wipperman*, Allen Z. Lin*, Kaitlyn M. Gayvert*, <span class="my-name">Benjamin Lahner</span>, ... , and Olivier Harari.
+                    </div>
+                    <div class="venue">eLife, 2024</div>
+                    <div class="links">
+                        <a href="https://elifesciences.org/articles/86132" target="_blank">Paper</a>
+                    </div>
+                </div>
+             
+                <div class="paper">
+                    <div class="paper-title">
+                        A mechanical device for precise self-administration of ocular drugs.
+                    </div>
+                    <div class="authors">
+                        Jesse George-Akpenyi*, <span class="my-name">Benjamin Lahner*</span>, Seung Hyeon Shim*, Carly Smith*, Nakul Singh, Matt Murphy, Leroy Sibanda, Giovanni Traverso, and Nevan C. Hanumara.
+                    </div>
+                    <div class="venue">Human Factors in Healthcare, 2024</div>
+                    <div class="links">
+                        <a href="https://www.sciencedirect.com/science/article/pii/S2772501424000113?via%3Dihub" target="_blank">Paper</a> |
+                        <a href="https://github.com/blahner/precise-eyedrop" target="_blank">Repository</a> |
+                        <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024238546&_cid=P20-M41VOA-20633-1" target="_blank">Patent App</a>
+                    </div>
+                </div>
+             
+                <div class="year-header">2023</div>
+                
+                <div class="paper">
+                    <div class="paper-title">
+                        Theta-phase-specific modulation of dentate gyrus memory neurons.
+                    </div>
+                    <div class="authors">
+                        Bahar Rahsepar, Jad Noueihed, Jacob F. Norman, <span class="my-name">Benjamin Lahner</span>, Melanie H. Quick, Kevin Ghaemi, Aashna Pandya, Fernando R. Fernandez, Steve Ramirez, and John A. White.
+                    </div>
+                    <div class="venue">eLife, 2023</div>
+                    <div class="links">
+                        <a href="https://elifesciences.org/articles/82697" target="_blank">Paper</a>
+                    </div>
+                </div>
+             
+                <div class="paper">
+                    <div class="paper-title">
+                        The Algonauts Project 2023 Challenge: How the Human Brain Makes Sense of Natural Scenes.
+                    </div>
+                    <div class="authors">
+                        Allesandro T. Gifford, <span class="my-name">Benjamin Lahner</span>, Sari Saba-Sadiya, Martina G. Vilas, Alex Lascelles, Aude Oliva, Kendrick Kay, Gemma Roig, Radoslaw M. Cichy.
+                    </div>
+                    <div class="venue">arXiv, 2023</div>
+                    <div class="links">
+                        <a href="https://arxiv.org/abs/2301.03198" target="_blank">Paper</a> |
+                        <a href="http://algonauts.csail.mit.edu/" target="_blank">Project page</a>
+                    </div>
+                </div>
+             
+                <div class="year-header">2022</div>
+                
+                <div class="paper">
+                    <div class="paper-title">
+                        Cochlea to categories: The spatiotemporal dynamics of semantic auditory representations.
+                    </div>
+                    <div class="authors">
+                        Matthew X. Lowe*, Yalda Mohsenzadeh*, <span class="my-name">Benjamin Lahner</span>, Ian Charest, Aude Oliva and Santani Teng.
+                    </div>
+                    <div class="venue">Cognitive Neuropsychology, 2022</div>
+                    <div class="links">
+                        <a href="https://www.tandfonline.com/doi/full/10.1080/02643294.2022.2085085" target="_blank">Paper</a> |
+                        <a href="https://cochleatocategories.csail.mit.edu/" target="_blank">Project page</a> |
+                        <a href="https://www.youtube.com/watch?v=Qhq_CSssQe8" target="_blank">Video</a>
+                    </div>
+                </div>
+             
+                <div class="year-header">2021</div>
+                
+                <div class="paper">
+                    <div class="paper-title">
+                        The Algonauts Project 2021 Challenge: How the Human Brain Makes Sense of a World in Motion.
+                    </div>
+                    <div class="authors">
+                        Radoslaw Martin Cichy, Kshitij Dwivedi, <span class="my-name">Benjamin Lahner</span>, Alex Lascelles, Polina Iamshchinina, M Graumann, Alex Andonian, NAR Murty, K Kay, Gemma Roig, Aude Oliva.
+                    </div>
+                    <div class="venue">arXiv, 2021</div>
+                    <div class="links">
+                        <a href="https://arxiv.org/abs/2104.13714" target="_blank">Paper</a> |
+                        <a href="http://algonauts.csail.mit.edu/2021/index.html" target="_blank">Project page</a>
+                    </div>
+                </div>
+             
+                <div class="year-header">2020</div>
+                
+                <div class="paper">
+                    <div class="paper-title">
+                        Emergence of visual center-periphery spatial organization in deep convolutional neural networks.
+                    </div>
+                    <div class="authors">
+                        Yalda Mohsenzadeh, Caitlin Mullin, <span class="my-name">Benjamin Lahner</span>, and Aude Oliva.
+                    </div>
+                    <div class="venue">Scientific Reports, 2020</div>
+                    <div class="links">
+                        <a href="https://www.nature.com/articles/s41598-020-61409-0" target="_blank">Paper</a> |
+                        <a href="http://topographicaldcnn.csail.mit.edu/" target="_blank">Project page</a>
+                    </div>
+                </div>
+             
+                <div class="year-header">2019</div>
+                
+                <div class="paper">
+                    <div class="paper-title">
+                        Reliability and generalizability of similarity-based fusion of fMRI and MEG data in the ventral and dorsal visual streams.
+                    </div>
+                    <div class="authors">
+                        Yalda Mohsenzadeh*, Caitlin Mullin*, <span class="my-name">Benjamin Lahner</span>, Radoslaw Cichy, and Aude Oliva.
+                    </div>
+                    <div class="venue">Vision, 2019</div>
+                    <div class="links">
+                        <a href="https://www.mdpi.com/2411-5150/3/1/8" target="_blank">Paper</a> |
+                        <a href="http://twinsetfusion.csail.mit.edu/" target="_blank">Project page</a> |
+                        <a href="https://www.youtube.com/watch?v=5XlOCUlOyN0" target="_blank">Video</a>
+                    </div>
+                </div>
+             
+                <div class="paper">
+                    <div class="paper-title">
+                        The Algonauts Project: A platform for communication between the sciences of biological and artificial intelligence.
+                    </div>
+                    <div class="authors">
+                        Radoslaw Martin Cichy, Gemma Roig, Alex Andonian, Kshitij Dwivedi, <span class="my-name">Benjamin Lahner</span>, Alex Lascelles, Yalda Mohsenzadeh, Kandan Ramakrishnan, and Aude Oliva.
+                    </div>
+                    <div class="venue">arXiv, 2019</div>
+                    <div class="links">
+                        <a href="https://arxiv.org/abs/1905.05675" target="_blank">Paper</a> |
+                        <a href="http://algonauts.csail.mit.edu/2019/index.html" target="_blank">Project page</a>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+        <div class="section" onclick="toggleSection(event, 'patents')">
+            <div class="section-header text-orange">Patents</div>
+            <div id="patents" class="section-content">
+                <div class="patent-item">
+                    <div class="patent-header">
+                        <div class="patent-title">Eye drop positioning device with haptic feedback</div>
+                        <div class="patent-date">May 2023</div>
+                    </div>
+                    <div class="patent-details">
+                        <ul>
+                            <li>Designed a mechanical eye drop assist device for elderly glaucoma patients.</li>
+                            <li>Published results in the journal <em>Human Factors in Healthcare.</em></li>
+                            <li>International Patent Application: <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024238546&_cid=P20-M41VOA-20633-1" target="_blank">WO/2024/238546</a></li>
+                        </ul>
+                    </div>
+                </div>
+             
+                <div class="patent-item">
+                    <div class="patent-header">
+                        <div class="patent-title">Systems and methods for test device analysis</div>
+                        <div class="patent-date">August 2023</div>
+                    </div>
+                    <div class="patent-details">
+                        <ul>
+                            <li>Created a framework for testing machine learning models used to predict clinical outcomes from wearable devices.</li>
+                            <li>Worked in collaboration with Regeneron Pharmaceuticals and published results in the journal <em>eLife.</em></li>
+                            <li>Non-provisional application in progress.</li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+        </div>
+        
+        <div class="section" onclick="toggleSection(event, 'awards')">
+            <div class="section-header text-purple">Awards</div>
+            <div id="awards" class="section-content">
+                <div class="award-item">
+                    <div class="award-header">
+                        <div class="award-title">MIT Open Data Competition - Runner Up</div>
+                        <div class="award-date">Fall 2022</div>
+                    </div>
+                    <div class="award-details">
+                        <ul>
+                            <li>Runner up (out of 70 projects across MIT) in the Open Data competition that recognizes open and publicly accessible data with strong potential for large scientific impact.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="award-item">
+                    <div class="award-header">
+                        <div class="award-title">EECS Mathworks Fellowship</div>
+                        <div class="award-date">Fall 2022</div>
+                    </div>
+                    <div class="award-details">
+                        <ul>
+                            <li>Awarded full financial support for one academic year ($70,000) for using MATLAB in novel and impactful scientific research.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="award-item">
+                    <div class="award-header">
+                        <div class="award-title">Best Biomedical Engineering Senior Design Project</div>
+                        <div class="award-date">Spring 2019</div>
+                    </div>
+                    <div class="award-details">
+                        <ul>
+                            <li>Developed and deployed a real-time algorithm (latency of ~20ms) in C++ that interfaced with neural signals from a
+                                mouse's hippocampus to manipulate memory encoding and retrieval. Work published in the journal <em>eLife</em>.</li>
+                            <li>Awarded best project out of 42 other projects in biomedical engineering by engineering faculty.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="javascript.js"></script>
+    <footer style="text-align: center; padding: 20px; margin-top: 40px; border-top: 1px solid #ccc; color: #666;">
+        Last updated: Fall 2024
+    </footer>
+</body>
+</html>
