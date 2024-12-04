@@ -1,26 +1,20 @@
-.container-blurb {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
 .image-text-wrapper {
     display: flex;
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
+    width: 100%; /* Added width */
 }
 
 .image-container {
-    flex-shrink: 0;
-    width: 200px;
-    max-width: 200px; 
+    flex: 0 0 150px; /* Changed to smaller fixed size */
+    max-width: 150px; /* Reduced max-width */
 }
 
 .image-container img {
     width: 100%;
     height: auto;
-    max-width: 100%; 
+    max-width: 100%;
     object-fit: cover;
     border-radius: 8px;
     border: 1px solid black;
@@ -42,7 +36,7 @@
 
     .image-container {
         width: 100%;
-        max-width: 300px;
+        max-width: 200px; /* Reduced mobile max-width */
         margin: 0 auto;
     }
 }
