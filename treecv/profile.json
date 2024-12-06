@@ -310,7 +310,8 @@
     {"name": "html/css/javascript", "size": 10498, "color": "green",
       "children":[
         {"name": "Personal Website", "size": 1000, "color": "black", "url": "https://blahner.github.io/"},
-        {"name": "Sportsball Website", "size": 1000, "color": "black", "url": "https://sportsballbracket.com/"}
+        {"name": "Sportsball Website", "size": 1000, "color": "black", "url": "https://sportsballbracket.com/"},
+        {"name": "TreeCV", "size": 1000, "color": "black", "url": "https://github.com/blahner/TreeCV"}
       ]
     },
     {"name": "Large-scale Computing", "color": "green",
