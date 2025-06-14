@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="description" content="Computational neuroscience graduate student at MIT.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Ben Lahner</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -22,723 +21,374 @@
 
     <!-- Favicn –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/CSAIL_Primary_Regular_RGB.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 <div class="container">
-    <table width="930" cellspacing="0" cellpadding="20">
-        <tr>
-            <td>
-            </td>
-            <td>
-                <p style="text-align: center">
-                    <pageheading>Ben Lahner</pageheading>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="30%" valign="top">
-                <img src="images/headshot.jpg" width="100%" style="border-radius:15px">
+    <!-- Header Section -->
+    <div style="text-align: center; margin-bottom: 30px;">
+        <pageheading>Ben Lahner</pageheading>
+    </div>
+
+    <div class="header-section">
+        <div class="profile-image">
+            <img src="images/headshot.jpg" alt="Ben Lahner">
+            <div class="profile-links">
                 <a href="https://www.linkedin.com/in/benlahner/" target="_blank">Linkedin</a> |
                 <a href="https://scholar.google.com/citations?user=goKPqBcAAAAJ&hl=en&oi=ao" target="_blank">Google scholar</a> |
                 <a href="https://github.com/blahner" target="_blank">Github</a>
-            </td>
-            <td width="71%" valign="top">
-                I am a final year PhD student studying computational neuroscience in MIT's <a href="https://www.csail.mit.edu/" target="_blank">Computer Science and Artificial Intelligence Lab</a> (CSAIL), where I am advised by 
-                <a href="http://olivalab.mit.edu/audeoliva.html" target="_blank">Aude Oliva</a>. Using machine learning and neural networks, I model experimental data (fMRI and MEG) to uncover insights into human visual memory and perception.
-                I also have a passion for human factors engineering and device design, and I have been fortunate enough to gain industry experience at 
-                <a href="https://www.regeneron.com/" target="_blank">Regeneron Pharmaceuticals</a>, 
-                <a href="https://azure.microsoft.com/en-us/services/cognitive-services/#features" target="_blank">Microsoft</a>, and <a href="https://www.amazon.jobs/content/en/teams/devices-services/design-group" 
-                target="_blank">Amazon</a>.
-                <br>
-                <br>
-                Prior to joining MIT, I graduated from Boston University with a B.S. in biomedical engineering. During my undergrad years I was first introduced to research
-                through <a href="https://sites.bu.edu/reinhartlab/" target="_blank">Professor Robert Reinhart</a> and 
-                <a href="https://www.ndlbu.org/" target="_blank">Professor John White</a>.
-                <br>
-                <br>
-                I am looking for a full time industry job starting summer 2025 that would value my expertise in AI, cognitive science, and product design. Feel free to reach out!
-                <div style="max-width: 600px;"> <!-- Added container with max-width -->
-                    <div class="image-text-wrapper">                         
-                        <div class="image-container">                             
-                            <img src="images/treecv_fast.gif" alt="Description of image">                         
-                        </div>                         
-                        <div class="description">                             
-                            Check out my experimental "TreeCV" <a href="treecv/treecv.html">here</a>.                         
-                        </div>                     
-                    </div>                 
-                </div>   
-            
-            </td>
-        </tr>
-    </table>
+            </div>
+        </div>
+        <div class="profile-content">
+            I am a <a href="https://www.nature.com/articles/s41467-023-37180-x">NeuroAI</a> researcher seeking to understand 
+            how our brains make sense of our world. Using machine learning and neural networks, 
+            I model experimental data (fMRI and MEG) to uncover insights into human visual memory and perception.
+            I have extensive experience in all stages of the NeuroAI pipeline, from experimental data collection to preprocessing to AI training and publication.
+            I obtained my PhD studying computational neuroscience in MIT's <a href="https://www.csail.mit.edu/" target="_blank">Computer Science and Artificial Intelligence Lab</a> 
+            (CSAIL), where I was advised by <a href="http://olivalab.mit.edu/audeoliva.html" target="_blank">Aude Oliva</a>.
+            I have also have industry experience applying my AI skills at  
+            <a href="https://www.regeneron.com/" target="_blank">Regeneron Pharmaceuticals</a>, 
+            <a href="https://azure.microsoft.com/en-us/services/cognitive-services/#features" target="_blank">Microsoft</a>, and <a href="https://www.amazon.jobs/content/en/teams/devices-services/design-group" 
+            target="_blank">Amazon</a>.
+            <br><br>
+            Prior to joining MIT, I graduated from Boston University with a B.S. in biomedical engineering. During my undergrad years I was first introduced to research
+            through <a href="https://sites.bu.edu/reinhartlab/" target="_blank">Professor Robert Reinhart</a> and 
+            <a href="https://www.ndlbu.org/" target="_blank">Professor John White</a>.
+        </div>
+    </div>
 
-    <table width="100%"cellspacing="0" cellpadding="20">
-        <tr>
-            <td>
-                <sectionheading>Publications</sectionheading>
-            </td>
-        </tr>     
-        <hr>   
-        <table cellspacing="17">
-            <tr>
-                <td>
-                    <strong>2024</strong>
-                </td>
-            </tr>  
-            <tr style="background-color: #F8F8F8;">
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/BOLDMoments_mosaic.gif"><img width=100%s src="images/BOLDMoments_mosaic.gif"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>Modeling short visual events through the BOLD moments video fMRI dataset and metadata.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames><u>Benjamin Lahner</u>, Kshitij Dwivedi, Polina Iamshchinina, Monika Graumann, Alex Lascelles, 
-                                        Gemma Roig, Alessandro Thomas Gifford, Bowen Pan, SouYoung Jin, Ratan Murty, Kendrick Kay, Aude Oliva+, Radoslaw Cichy+.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>Nature Communications, 2024</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://www.nature.com/articles/s41467-024-50310-3" target="_blank"><b>Paper</b></a> |
-                                    <a href="https://github.com/blahner/BOLDMomentsDataset" target="_blank"><b>Project page</b></a> |
-                                    <a href="https://openneuro.org/datasets/ds005165" target="_blank"><b>Dataset Repository</b></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/eccv_thumbnail.gif"><img width=100%s src="images/eccv_thumbnail.gif"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>Brain Netflix: Scaling Data to Reconstruct Videos from Brain Signals.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames>Camilo Fosco*, <u>Benjamin Lahner*</u>, Bowen Pan, Alex Andonian, Emilie Josephs, Alex Lascelles, and Aude Oliva.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>European Conference on Computer Vision (ECCV), 2024</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03816.pdf" target="_blank"><b>Paper</b></a> |
-                                    <a href="https://blahner.github.io/BrainNetflixECCV/" target="_blank"><b>Project page</b></a>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-
-            <tr style="background-color: #F8F8F8;">
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/memorability_thumbnail.png"><img width=100%s src="images/memorability_thumbnail.png"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>Visual perception of highly memorable images is mediated by a distributed network of ventral visual regions that enable a late memorability response.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames><u>Benjamin Lahner*</u>, Yalda Mohsenzadeh*, Caitlin Mullin*, and Aude Oliva.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>PLOS Biology, 2024</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002564" target="_blank"><b>Paper</b></a> |
-                                    <a href="https://memorabilityfusion.csail.mit.edu/" target="_blank"><b>Project page</b></a> | 
-                                    <a href="https://osf.io/nrtvx/" target="_blank"><b>Repository</b></a> |
-                                    <a href="https://news.mit.edu/2024/mapping-brain-pathways-visual-memorability-0423" target="_blank"><b>MIT news</b></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/gait_screenshot.png"><img width=100%s src="images/gait_screenshot.png"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>Digital wearable insole-based identification of knee 
-                                        arthropathies and gait signatures using machine learning.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames>Matthew F. Wipperman*, Allen Z. Lin*, Kaitlyn M. Gayvert*, <u>Benjamin Lahner</u>, ... , and Olivier Harari.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>eLife, 2024</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://elifesciences.org/articles/86132" target="_blank"><b>Paper</b></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-
-            <tr style="background-color: #F8F8F8;">
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/eyedrop_device.jpg"><img width=100%s src="images/eyedrop_device.jpg"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>A mechanical device for precise self-administration of ocular drugs.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames>Jesse George-Akpenyi*, <u>Benjamin Lahner*</u>, Seung Hyeon Shim*, Carly Smith*, Nakul Singh, Matt Murphy, Leroy Sibanda, Giovanni Traverso, and Nevan C. Hanumara.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>Human Factors in Healthcare, 2024</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">Patent Pending</td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://www.sciencedirect.com/science/article/pii/S2772501424000113?via%3Dihub" target="_blank"><b>Paper</b></a> |
-                                    <a href="https://github.com/blahner/precise-eyedrop" target="_blank"><b>Repository</b></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <strong>2023</strong>
-                </td>
-            </tr>  
-
-            <tr>
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/theta_paper_cropped.jpg"><img width=100%s src="images/theta_paper_cropped.jpg"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>Theta-phase-specific modulation of dentate gyrus memory neurons.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames>Bahar Rahsepar, Jad Noueihed, Jacob F. Norman, <u>Benjamin Lahner</u>, Melanie H. Quick, Kevin Ghaemi, Aashna Pandya, Fernando R. Fernandez, Steve Ramirez, and John A. White.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>eLife, 2023</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://elifesciences.org/articles/82697" target="_blank"><b>Paper</b></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-
-            <tr style="background-color: #F8F8F8;">
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/algo2023_orangebrain.png"><img width=100%s src="images/algo2023_orangebrain.png"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>The Algonauts Project 2023 Challenge: How the Human Brain Makes Sense of Natural Scenes.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames>Allesandro T. Gifford, <u>Benjamin Lahner</u>, Sari Saba-Sadiya, Martina G. Vilas, Alex Lascelles, Aude Oliva, Kendrick Kay, Gemma Roig, Radoslaw M. Cichy.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>arXiv, 2023</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://arxiv.org/abs/2301.03198" target="_blank"><b>Paper</b></a> |
-                                    <a href="http://algonauts.csail.mit.edu/" target="_blank"><b>Project page</b></a>
-                                    
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <strong>2022</strong>
-                </td>
-            </tr>  
-
-            <tr>
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/auditoryFusion.jpeg"><img width=100%s src="images/auditoryFusion.jpeg"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>Cochlea to categories: The spatiotemporal dynamics of semantic auditory representations.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames>Matthew X. Lowe*, Yalda Mohsenzadeh*, <u>Benjamin Lahner</u>, Ian Charest, Aude Oliva and Santani Teng.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>Cognitive Neuropsychology, 2022</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://www.tandfonline.com/doi/full/10.1080/02643294.2022.2085085" target="_blank"><b>Paper</b></a> |
-                                    <a href="https://cochleatocategories.csail.mit.edu/" target="_blank"><b>Project page</b></a> | 
-                                    <a href="https://www.youtube.com/watch?v=Qhq_CSssQe8" target="_blank"><b>Fusion video</b></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <strong>2021</strong>
-                </td>
-            </tr>  
-
-            <tr style="background-color: #F8F8F8;">
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/algo2021_greenbrain.png"><img width=100%s src="images/algo2021_greenbrain.png"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>The Algonauts Project 2021 Challenge: How the Human Brain Makes Sense of a World in Motion.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames>Radoslaw Martin Cichy, Kshitij Dwivedi, <u>Benjamin Lahner</u>, Alex Lascelles, Polina Iamshchinina, M Graumann, Alex Andonian, NAR Murty, K Kay, Gemma Roig, Aude Oliva.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>arXiv, 2021</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://arxiv.org/abs/2104.13714" target="_blank"><b>Paper</b></a> |
-                                    <a href="http://algonauts.csail.mit.edu/2021/index.html" target="_blank"><b>Project page</b></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <strong>2020</strong>
-                </td>
-            </tr>  
-
-            <tr>
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/emergence_fig3.jpg"><img width=100%s src="images/emergence_fig3.jpg"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>Emergence of visual center-periphery spatial organization in deep convolutional neural networks.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames>Yalda Mohsenzadeh, Caitlin Mullin, <u>Benjamin Lahner</u>, and Aude Oliva.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>Scientific Reports, 2020</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://www.nature.com/articles/s41598-020-61409-0" target="_blank"><b>Paper</b></a> |
-                                    <a href="http://topographicaldcnn.csail.mit.edu/" target="_blank"><b>Project page (under construction)</b></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <strong>2019</strong>
-                </td>
-            </tr>  
-
-            <tr style="background-color: #F8F8F8;">
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/reliability_2019.jpg"><img width=100%s src="images/reliability_2019.jpg"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>Reliability and generalizability of similarity-based fusion of fMRI and MEG data in the ventral and dorsal visual streams.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames>Yalda Mohsenzadeh*, Caitlin Mullin*, <u>Benjamin Lahner</u>, Radoslaw Cichy, and Aude Oliva.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>Vision, 2019</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://www.mdpi.com/2411-5150/3/1/8" target="_blank"><b>Paper</b></a> |
-                                    <a href="http://twinsetfusion.csail.mit.edu/" target="_blank"><b>Project page</b></a> |
-                                    <a href="https://www.youtube.com/watch?v=5XlOCUlOyN0&feature=youtu.be" target="_blank"><b>Fusion video</b></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td style="width: 35%; text-align: center" >
-                    <a href="images/algo2019_bluebrain.png"><img width=100%s src="images/algo2019_bluebrain.png"></a>
-                </td>
-                <td style="width: 65%">
-                    <div class="publication">
-                        <table cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="100%">
-                                    <paperheading>The Algonauts Project: A platform for communication between the sciences of biological and artificial intelligence.</paperheading>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <authornames>Radoslaw Martin Cichy, Gemma Roig, Alex Andonian, Kshitij Dwivedi, <u>Benjamin Lahner</u>, Alex Lascelles, Yalda Mohsenzadeh, Kandan Ramakrishnan, 
-                                        and Aude Oliva.</authornames>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="100%"><b>arXiv, 2019</b></td>
-                            </tr>
-                            <tr>
-                                <td width="100%">
-                                    <a href="https://arxiv.org/abs/1905.05675" target="_blank"><b>Paper</b></a> |
-                                    <a href="http://algonauts.csail.mit.edu/2019/index.html" target="_blank"><b>Project page</b></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-        </table>
-
-        <table width="100%"cellspacing="0" cellpadding="20">
-            <tr>
-                <td>
-                    <sectionheading>Selected Conference Abstracts</sectionheading>
-                </td>
-            </tr>
-            <hr>
-            <table cellspacing="17">
-            <tr>
-                <td width="40%" valign="top">
-                    <ul>
-                        <li>
-                            A Systematic Comparison of fMRI-to-video Reconstruction Techniques.
-                            <br>
-                            Camilo Fosco*, <b>Benjamin Lahner*</b>, Bowen Pan, Alex Andonian, Emilie Josephs, Alex Lascelles, and Aude Oliva.
-                            <br>
-                            International Conference on Machine Learning (ICML), Vienna, Austria (2024)
-                        </li>
-                        <li>
-                            A mechanical device for precise self-administration of ocular drugs.
-                            <br>
-                            Jesse George-Akpenyi*, <b>Benjamin Lahner*</b>, Seung Hyeon Shim*, Carly Smith*, Nakul Singh, Matt Murphy, Leroy Sibanda, Giovanni Traverso, and Nevan C. Hanumara.
-                            <br>
-                            Human Factors and Ergonomics Society Student Conference, Cambridge, MA (2024) (oral)
-                
-                        </li>
-                        <li>
-                            The Emergence of Early Sound Categorical Responses in the Human Brain.
-                            <br>
-                            <b>Benjamin Lahner</b>, Santani Teng, Matthew X. Lowe, Ian Charest, Aude Oliva, Yalda Mohsenzadeh.
-                            <br>
-                            NeurIPS SVRHM Workshop, Vancouver, Canada (2019)
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-
-        </table>
-
-        <table width="100%" cellspacing="0" cellpadding="20">
-            <tr>
-                <td>
-                    <sectionheading>Active Community Involvement</sectionheading>
-                </td>
-            </tr>
-            <hr>
-            <table cellspacing="5">
-                <tr>
-                    <td>
-                        <ul>
-                            <li>
-                                Education Volunteer, <a href="https://www.teji.mit.edu/" target="_blank">The Educational Justice Institute</a> (TEJI) at MIT
-                                <br>
-                                I teach MIT computer programming courses to inmates. They learn foundational computer skills that will be essential in their day-to-day lives, continued education, or even careers in tech.
-                                <br>
-                                See the Fundamentals of Neural Networks <a href=https://github.com/blahner/nntutorial-nogpu target="_blank">tutorial</a> I developed with this population in mind. 
-                            </li>
-                            <li>
-                                Mentor, <a href="https://www.project-short.com/" target="_blank">Project Short</a>
-                                <br>
-                                I mentor one prospective graduate student per application cycle through the graduate school application process. I assist with SOPs, mock interviews, networking, and any general advice.
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
-        </table>
-
-        <table width="100%" cellspacing="0" cellpadding="20">
-            <tr>
-                <td>
-                    <sectionheading>Awards and Achievements</sectionheading>
-                </td>
-            </tr>
-            <hr>
-            <table cellspacing="5">
-                <tr>
-                    <td>
-                        <ul>
-                            <li>
-                                <b>MIT Open Data Competition - Honorable Mention (2022)</b>
-                                <br>
-                                The competition highlights open and publicly accessible data with a large potential for scientific impact. My submission of our
-                                large-scale fMRI dataset of video event understanding (Algonauts 2021, see above) won runner up against over 70 submissions across all of MIT. 
-                            </li>
-                            <li>
-                                <b>EECS MathWorks Fellowship (2022)</b>
-                                <br>
-                                Full graduate student financial support for an academic year awarded to select MIT EECS graduate students using MATLAB to further novel and impactful
-                                scientific research.
-                            </li>
-                            <li>
-                                <b>Best Biomedical Engineering Senior Design Project (2019)</b>
-                                <br>
-                                Awarded best biomedical engineering senior design project out of 42 other projects by Boston University engineering faculty.
-                                The project delivered a low-latency (~20ms) algorithm to manipulate a mouse's neural signals in real-time. This project 
-                                resulted in a <a href="https://elifesciences.org/articles/82697" target="_blank">publication</a> in eLife.
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
-        </table>
-
-        <table width="100%"cellspacing="0" cellpadding="20">
-            <tr>
-                <td>
-                    <sectionheading>Featured <a href="https://medium.com/@benlahner" target="_blank">Blog Posts</a></sectionheading>
-                </td>
-            </tr>     
-            <hr>   
-            <table cellspacing="17">
-
-                <tr>
-                    <td style="width: 35%; text-align: center" >
-                        <a href="images/mt_st_helens.jpg"><img width=75%s src="images/mt_st_helens.jpg"></a>
-                    </td>
-                    <td style="width: 65%">
-                        <div class="publication">
-                            <table cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <td width="100%">
-                                        <paperheading>How to Build Your Own Ticket Bot</paperheading>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="100%">
-                                        A walkthrough of how to build a ticket bot that notifies you by email and text when your tickets are available.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="100%">
-                                        <a href="https://medium.com/@benlahner/how-to-build-your-own-ticket-bot-63c3d0706e92"><b>Article</b></a> |
-                                        <a href="https://github.com/blahner/ticket-bot" target="_blank"><b>Code</b></a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </td>
-                </tr>
-
-                <tr style="background-color: #F8F8F8;">
-                    <td style="width: 35%; text-align: center" >
-                        <a href="images/blog_curious_george.jpg"><img width=100%s src="images/blog_curious_george.jpg"></a>
-                    </td>
-                    <td style="width: 65%">
-                        <div class="publication">
-                            <table cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <td width="100%">
-                                        <paperheading>Curious George Discovers the Infinite Monkey Theorem</paperheading>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="100%">
-                                        How long would it take Curious George to write a Curious George book?
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="100%">
-                                        <a href="https://medium.com/@benlahner/curious-george-discovers-the-infinite-monkey-theorem-652d73667229" target="_blank"><b>Article</b></a> |
-                                        <a href="https://github.com/blahner/curious-george" target="_blank"><b>Code</b></a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style="width: 35%; text-align: center" >
-                        <a href="images/blog_neural_networks.jpg"><img width=100%s src="images/blog_neural_networks.jpg"></a>
-                    </td>
-                    <td style="width: 65%">
-                        <div class="publication">
-                            <table cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <td width="100%">
-                                        <paperheading>The Fundamentals of Neural Networks: A Comprehensive Tutorial Without Internet or GPUs</paperheading>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="100%">
-                                        A step-by-step guide through neural networks' mathematical, NumPy, and PyTorch implementations.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="100%">
-                                        <a href="https://medium.com/@benlahner/the-fundamentals-of-neural-networks-a-comprehensive-tutorial-without-internet-or-gpus-c6e65f5cb882" target="_blank"><b>Article</b></a> |
-                                        <a href="https://github.com/blahner/nntutorial-nogpu" target="_blank"><b>Code</b></a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </td>
-                </tr>
-
-                <tr style="background-color: #F8F8F8;">
-                    <td style="width: 35%; text-align: center" >
-                        <a href="images/blog_sportsball.png"><img width=75%s src="images/blog_sportsball.png"></a>
-                    </td>
-                    <td style="width: 65%">
-                        <div class="publication">
-                            <table cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <td width="100%">
-                                        <paperheading>18 Million Brackets Later, Here Are the Best - and Worst - Ways to Fill Out Your March Madness Bracket</paperheading>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="100%">
-                                        Fill out your Men's and Women's March Madness bracket with a click of a button.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="100%">
-                                        <a href="https://medium.com/@benlahner/18-million-brackets-later-here-are-the-best-and-worst-ways-to-fill-out-your-march-madness-c41db4920a8c"><b>Article</b></a> |
-                                        <a href="https://github.com/blahner/sportsball" target="_blank"><b>Code</b></a> |
-                                        <a href="https://sportsballbracket.com/" target="_blank"><b>Website</b></a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </td>
-                </tr>
-
-            </table>
-
+    <!-- Publications Section -->
+    <div class="section">
+        <div class="section-title">
+            <sectionheading>Publications</sectionheading>
+        </div>
         <hr>
-        <table width="100%" cellspacing="0" cellpadding="10" style="padding-right:30px;">
-            <tr>
-                <td width="65%" valign="top">
-                    Template adopted from: <a href="http://www.cs.toronto.edu/~slwang/">1</a> and <a href="https://www.cs.cmu.edu/~dpathak/">2 </a>
-                </td>
-                <td width="100%" valign="top">
-                    Last updated: Spring 2024
-                </td>
-            </tr>
-        </table>
+
+        <div class="year-header"><strong>2024</strong></div>
+
+        <div class="publication-item" style="background-color: #dddddd89">
+            <div class="publication-image">
+                <a href="images/BOLDMoments_mosaic.gif"><img src="images/BOLDMoments_mosaic.gif" alt="BOLD Moments"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>Modeling short visual events through the BOLD moments video fMRI dataset and metadata.</paperheading><br>
+                <authornames><u>Benjamin Lahner</u>, Kshitij Dwivedi, Polina Iamshchinina, Monika Graumann, Alex Lascelles, 
+                    Gemma Roig, Alessandro Thomas Gifford, Bowen Pan, SouYoung Jin, Ratan Murty, Kendrick Kay, Aude Oliva+, Radoslaw Cichy+.</authornames><br>
+                <b>Nature Communications, 2024</b><br>
+                <a href="https://www.nature.com/articles/s41467-024-50310-3" target="_blank"><b>Paper</b></a> |
+                <a href="https://github.com/blahner/BOLDMomentsDataset" target="_blank"><b>Project page</b></a> |
+                <a href="https://openneuro.org/datasets/ds005165" target="_blank"><b>Dataset Repository</b></a>
+            </div>
+        </div>
+
+        <div class="publication-item">
+            <div class="publication-image">
+                <a href="images/eccv_thumbnail.gif"><img src="images/eccv_thumbnail.gif" alt="Brain Netflix"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>Brain Netflix: Scaling Data to Reconstruct Videos from Brain Signals.</paperheading><br>
+                <authornames>Camilo Fosco*, <u>Benjamin Lahner*</u>, Bowen Pan, Alex Andonian, Emilie Josephs, Alex Lascelles, and Aude Oliva.</authornames><br>
+                <b>European Conference on Computer Vision (ECCV), 2024</b><br>
+                <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03816.pdf" target="_blank"><b>Paper</b></a> |
+                <a href="https://blahner.github.io/BrainNetflixECCV/" target="_blank"><b>Project page</b></a>
+            </div>
+        </div>
+
+        <div class="publication-item" style="background-color: #dddddd89">
+            <div class="publication-image">
+                <a href="images/memorability_thumbnail.png"><img src="images/memorability_thumbnail.png" alt="Visual Memorability"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>Visual perception of highly memorable images is mediated by a distributed network of ventral visual regions that enable a late memorability response.</paperheading><br>
+                <authornames><u>Benjamin Lahner*</u>, Yalda Mohsenzadeh*, Caitlin Mullin*, and Aude Oliva.</authornames><br>
+                <b>PLOS Biology, 2024</b><br>
+                <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002564" target="_blank"><b>Paper</b></a> |
+                <a href="https://memorabilityfusion.csail.mit.edu/" target="_blank"><b>Project page</b></a> | 
+                <a href="https://osf.io/nrtvx/" target="_blank"><b>Repository</b></a> |
+                <a href="https://news.mit.edu/2024/mapping-brain-pathways-visual-memorability-0423" target="_blank"><b>MIT news</b></a>
+            </div>
+        </div>
+
+        <div class="publication-item">
+            <div class="publication-image">
+                <a href="images/gait_screenshot.png"><img src="images/gait_screenshot.png" alt="Gait Analysis"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>Digital wearable insole-based identification of knee arthropathies and gait signatures using machine learning.</paperheading><br>
+                <authornames>Matthew F. Wipperman*, Allen Z. Lin*, Kaitlyn M. Gayvert*, <u>Benjamin Lahner</u>, ... , and Olivier Harari.</authornames><br>
+                <b>eLife, 2024</b><br>
+                <a href="https://elifesciences.org/articles/86132" target="_blank"><b>Paper</b></a>
+            </div>
+        </div>
+
+        <div class="publication-item" style="background-color: #dddddd89">
+            <div class="publication-image">
+                <a href="images/eyedrop_device.jpg"><img src="images/eyedrop_device.jpg" alt="Eyedrop Device"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>A mechanical device for precise self-administration of ocular drugs.</paperheading><br>
+                <authornames>Jesse George-Akpenyi*, <u>Benjamin Lahner*</u>, Seung Hyeon Shim*, Carly Smith*, Nakul Singh, Matt Murphy, Leroy Sibanda, Giovanni Traverso, and Nevan C. Hanumara.</authornames><br>
+                <b>Human Factors in Healthcare, 2024</b><br>
+                Patent Pending<br>
+                <a href="https://www.sciencedirect.com/science/article/pii/S2772501424000113?via%3Dihub" target="_blank"><b>Paper</b></a> |
+                <a href="https://github.com/blahner/precise-eyedrop" target="_blank"><b>Repository</b></a>
+            </div>
+        </div>
+
+        <div class="year-header"><strong>2023</strong></div>
+
+        <div class="publication-item">
+            <div class="publication-image">
+                <a href="images/theta_paper_cropped.jpg"><img src="images/theta_paper_cropped.jpg" alt="Theta Phase"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>Theta-phase-specific modulation of dentate gyrus memory neurons.</paperheading><br>
+                <authornames>Bahar Rahsepar, Jad Noueihed, Jacob F. Norman, <u>Benjamin Lahner</u>, Melanie H. Quick, Kevin Ghaemi, Aashna Pandya, Fernando R. Fernandez, Steve Ramirez, and John A. White.</authornames><br>
+                <b>eLife, 2023</b><br>
+                <a href="https://elifesciences.org/articles/82697" target="_blank"><b>Paper</b></a>
+            </div>
+        </div>
+
+        <div class="publication-item" style="background-color: #dddddd89">
+            <div class="publication-image">
+                <a href="images/algo2023_orangebrain.png"><img src="images/algo2023_orangebrain.png" alt="Algonauts 2023"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>The Algonauts Project 2023 Challenge: How the Human Brain Makes Sense of Natural Scenes.</paperheading><br>
+                <authornames>Allesandro T. Gifford, <u>Benjamin Lahner</u>, Sari Saba-Sadiya, Martina G. Vilas, Alex Lascelles, Aude Oliva, Kendrick Kay, Gemma Roig, Radoslaw M. Cichy.</authornames><br>
+                <b>arXiv, 2023</b><br>
+                <a href="https://arxiv.org/abs/2301.03198" target="_blank"><b>Paper</b></a> |
+                <a href="http://algonauts.csail.mit.edu/" target="_blank"><b>Project page</b></a>
+            </div>
+        </div>
+
+        <div class="year-header"><strong>2022</strong></div>
+
+        <div class="publication-item">
+            <div class="publication-image">
+                <a href="images/auditoryFusion.jpeg"><img src="images/auditoryFusion.jpeg" alt="Auditory Fusion"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>Cochlea to categories: The spatiotemporal dynamics of semantic auditory representations.</paperheading><br>
+                <authornames>Matthew X. Lowe*, Yalda Mohsenzadeh*, <u>Benjamin Lahner</u>, Ian Charest, Aude Oliva and Santani Teng.</authornames><br>
+                <b>Cognitive Neuropsychology, 2022</b><br>
+                <a href="https://www.tandfonline.com/doi/full/10.1080/02643294.2022.2085085" target="_blank"><b>Paper</b></a> |
+                <a href="https://cochleatocategories.csail.mit.edu/" target="_blank"><b>Project page</b></a> | 
+                <a href="https://www.youtube.com/watch?v=Qhq_CSssQe8" target="_blank"><b>Fusion video</b></a>
+            </div>
+        </div>
+
+        <div class="year-header"><strong>2021</strong></div>
+
+        <div class="publication-item" style="background-color: #dddddd89">
+            <div class="publication-image">
+                <a href="images/algo2021_greenbrain.png"><img src="images/algo2021_greenbrain.png" alt="Algonauts 2021"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>The Algonauts Project 2021 Challenge: How the Human Brain Makes Sense of a World in Motion.</paperheading><br>
+                <authornames>Radoslaw Martin Cichy, Kshitij Dwivedi, <u>Benjamin Lahner</u>, Alex Lascelles, Polina Iamshchinina, M Graumann, Alex Andonian, NAR Murty, K Kay, Gemma Roig, Aude Oliva.</authornames><br>
+                <b>arXiv, 2021</b><br>
+                <a href="https://arxiv.org/abs/2104.13714" target="_blank"><b>Paper</b></a> |
+                <a href="http://algonauts.csail.mit.edu/2021/index.html" target="_blank"><b>Project page</b></a>
+            </div>
+        </div>
+
+        <div class="year-header"><strong>2020</strong></div>
+
+        <div class="publication-item">
+            <div class="publication-image">
+                <a href="images/emergence_fig3.jpg"><img src="images/emergence_fig3.jpg" alt="Emergence"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>Emergence of visual center-periphery spatial organization in deep convolutional neural networks.</paperheading><br>
+                <authornames>Yalda Mohsenzadeh, Caitlin Mullin, <u>Benjamin Lahner</u>, and Aude Oliva.</authornames><br>
+                <b>Scientific Reports, 2020</b><br>
+                <a href="https://www.nature.com/articles/s41598-020-61409-0" target="_blank"><b>Paper</b></a> |
+                <a href="http://topographicaldcnn.csail.mit.edu/" target="_blank"><b>Project page (under construction)</b></a>
+            </div>
+        </div>
+
+        <div class="year-header"><strong>2019</strong></div>
+
+        <div class="publication-item" style="background-color: #dddddd89">
+            <div class="publication-image">
+                <a href="images/reliability_2019.jpg"><img src="images/reliability_2019.jpg" alt="Reliability"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>Reliability and generalizability of similarity-based fusion of fMRI and MEG data in the ventral and dorsal visual streams.</paperheading><br>
+                <authornames>Yalda Mohsenzadeh*, Caitlin Mullin*, <u>Benjamin Lahner</u>, Radoslaw Cichy, and Aude Oliva.</authornames><br>
+                <b>Vision, 2019</b><br>
+                <a href="https://www.mdpi.com/2411-5150/3/1/8" target="_blank"><b>Paper</b></a> |
+                <a href="http://twinsetfusion.csail.mit.edu/" target="_blank"><b>Project page</b></a> |
+                <a href="https://www.youtube.com/watch?v=5XlOCUlOyN0&feature=youtu.be" target="_blank"><b>Fusion video</b></a>
+            </div>
+        </div>
+
+        <div class="publication-item">
+            <div class="publication-image">
+                <a href="images/algo2019_bluebrain.png"><img src="images/algo2019_bluebrain.png" alt="Algonauts 2019"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>The Algonauts Project: A platform for communication between the sciences of biological and artificial intelligence.</paperheading><br>
+                <authornames>Radoslaw Martin Cichy, Gemma Roig, Alex Andonian, Kshitij Dwivedi, <u>Benjamin Lahner</u>, Alex Lascelles, Yalda Mohsenzadeh, Kandan Ramakrishnan, 
+                    and Aude Oliva.</authornames><br>
+                <b>arXiv, 2019</b><br>
+                <a href="https://arxiv.org/abs/1905.05675" target="_blank"><b>Paper</b></a> |
+                <a href="http://algonauts.csail.mit.edu/2019/index.html" target="_blank"><b>Project page</b></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conference Abstracts Section -->
+    <div class="section">
+        <div class="section-title">
+            <sectionheading>Selected Conference Abstracts</sectionheading>
+        </div>
+        <hr>
+        <ul>
+            <li>
+                A Systematic Comparison of fMRI-to-video Reconstruction Techniques.
+                <br>
+                Camilo Fosco*, <b>Benjamin Lahner*</b>, Bowen Pan, Alex Andonian, Emilie Josephs, Alex Lascelles, and Aude Oliva.
+                <br>
+                International Conference on Machine Learning (ICML), Vienna, Austria (2024)
+            </li>
+            <li>
+                A mechanical device for precise self-administration of ocular drugs.
+                <br>
+                Jesse George-Akpenyi*, <b>Benjamin Lahner*</b>, Seung Hyeon Shim*, Carly Smith*, Nakul Singh, Matt Murphy, Leroy Sibanda, Giovanni Traverso, and Nevan C. Hanumara.
+                <br>
+                Human Factors and Ergonomics Society Student Conference, Cambridge, MA (2024) (oral)
+            </li>
+            <li>
+                The Emergence of Early Sound Categorical Responses in the Human Brain.
+                <br>
+                <b>Benjamin Lahner</b>, Santani Teng, Matthew X. Lowe, Ian Charest, Aude Oliva, Yalda Mohsenzadeh.
+                <br>
+                NeurIPS SVRHM Workshop, Vancouver, Canada (2019)
+            </li>
+        </ul>
+    </div>
+
+    <!-- Community Involvement Section -->
+    <div class="section">
+        <div class="section-title">
+            <sectionheading>Active Community Involvement</sectionheading>
+        </div>
+        <hr>
+        <ul>
+            <li>
+                Education Volunteer, <a href="https://www.teji.mit.edu/" target="_blank">The Educational Justice Institute</a> (TEJI) at MIT
+                <br>
+                I teach MIT computer programming courses to inmates. They learn foundational computer skills that will be essential in their day-to-day lives, continued education, or even careers in tech.
+                <br>
+                See the Fundamentals of Neural Networks <a href="https://github.com/blahner/nntutorial-nogpu" target="_blank">tutorial</a> I developed with this population in mind. 
+            </li>
+            <li>
+                Mentor, <a href="https://www.project-short.com/" target="_blank">Project Short</a>
+                <br>
+                I mentor one prospective graduate student per application cycle through the graduate school application process. I assist with SOPs, mock interviews, networking, and any general advice.
+            </li>
+        </ul>
+    </div>
+
+    <!-- Awards Section -->
+    <div class="section">
+        <div class="section-title">
+            <sectionheading>Awards and Achievements</sectionheading>
+        </div>
+        <hr>
+        <ul>
+            <li>
+                <b>MIT Open Data Competition - Honorable Mention (2022)</b>
+                <br>
+                The competition highlights open and publicly accessible data with a large potential for scientific impact. My submission of our
+                large-scale fMRI dataset of video event understanding (Algonauts 2021, see above) won runner up against over 70 submissions across all of MIT. 
+            </li>
+            <li>
+                <b>EECS MathWorks Fellowship (2022)</b>
+                <br>
+                Full graduate student financial support for an academic year awarded to select MIT EECS graduate students using MATLAB to further novel and impactful
+                scientific research.
+            </li>
+            <li>
+                <b>Best Biomedical Engineering Senior Design Project (2019)</b>
+                <br>
+                Awarded best biomedical engineering senior design project out of 42 other projects by Boston University engineering faculty.
+                The project delivered a low-latency (~20ms) algorithm to manipulate a mouse's neural signals in real-time. This project 
+                resulted in a <a href="https://elifesciences.org/articles/82697" target="_blank">publication</a> in eLife.
+            </li>
+        </ul>
+    </div>
+
+    <!-- Blog Posts Section -->
+    <div class="section">
+        <div class="section-title">
+            <sectionheading>Featured <a href="https://medium.com/@benlahner" target="_blank">Blog Posts</a></sectionheading>
+        </div>
+        <hr>
+
+        <div class="publication-item" style="background-color: #dddddd89">
+            <div class="publication-image">
+                <a href="images/mt_st_helens.jpg"><img src="images/mt_st_helens.jpg" alt="Ticket Bot" style="width: 75%;"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>How to Build Your Own Ticket Bot</paperheading><br>
+                A walkthrough of how to build a ticket bot that notifies you by email and text when your tickets are available.<br>
+                <a href="https://medium.com/@benlahner/how-to-build-your-own-ticket-bot-63c3d0706e92"><b>Article</b></a> |
+                <a href="https://github.com/blahner/ticket-bot" target="_blank"><b>Code</b></a>
+            </div>
+        </div>
+
+        <div class="publication-item">
+            <div class="publication-image">
+                <a href="images/blog_curious_george.jpg"><img src="images/blog_curious_george.jpg" alt="Curious George"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>Curious George Discovers the Infinite Monkey Theorem</paperheading><br>
+                How long would it take Curious George to write a Curious George book?<br>
+                <a href="https://medium.com/@benlahner/curious-george-discovers-the-infinite-monkey-theorem-652d73667229" target="_blank"><b>Article</b></a> |
+                <a href="https://github.com/blahner/curious-george" target="_blank"><b>Code</b></a>
+            </div>
+        </div>
+
+        <div class="publication-item" style="background-color: #dddddd89">
+            <div class="publication-image">
+                <a href="images/blog_neural_networks.jpg"><img src="images/blog_neural_networks.jpg" alt="Neural Networks"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>The Fundamentals of Neural Networks: A Comprehensive Tutorial Without Internet or GPUs</paperheading><br>
+                A step-by-step guide through neural networks' mathematical, NumPy, and PyTorch implementations.<br>
+                <a href="https://medium.com/@benlahner/the-fundamentals-of-neural-networks-a-comprehensive-tutorial-without-internet-or-gpus-c6e65f5cb882" target="_blank"><b>Article</b></a> |
+                <a href="https://github.com/blahner/nntutorial-nogpu" target="_blank"><b>Code</b></a>
+            </div>
+        </div>
+
+        <div class="publication-item">
+            <div class="publication-image">
+                <a href="images/treecv_fast.gif"><img src="images/treecv_fast.gif" alt="TreeCV demo" style="width: 75%;"></a>
+            </div>
+            <div class="publication-content">
+                <paperheading>TreeCV: The Skills-First Interactive Resume for the Modern Job Search</paperheading><br>
+                It's time to toss the traditional resume format in the 'reject' pile.<br>
+                <a href="https://medium.com/@benlahner/treecv-the-skills-first-interactive-resume-for-the-modern-job-search-d6e02e216e71"><b>Article</b></a> |
+                <a href="https://github.com/blahner/TreeCV" target="_blank"><b>Code</b></a> |
+                <a href="https://blahner.github.io/treecv/treecv.html" target="_blank"><b>Website</b></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <hr>
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; padding: 10px 0; font-size: 14px;">
+        <div>
+            Template adopted from: <a href="http://www.cs.toronto.edu/~slwang/">1</a> and <a href="https://www.cs.cmu.edu/~dpathak/">2</a>
+        </div>
+        <div>
+            Last updated: Spring 2025
+        </div>
+    </div>
 </div>
 </body>
 </html>
